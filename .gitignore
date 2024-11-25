@@ -1,0 +1,45 @@
+# Entornos virtuales de Python
+venv/
+env/
+.venv/
+
+# Archivos compilados de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos de configuración y caché
+*.env
+*.DS_Store
+*.log
+*.sqlite3
+
+# Archivos de PyQt6 generados
+*.qrc
+*.ui~    # Archivos temporales de diseño UI
+
+# Configuración de IDEs y editores de texto
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos y carpetas de sistema
+Thumbs.db
+.DS_Store
+
+# Archivos y carpetas de caché
+.cache/
+*.egg-info/
+.eggs/
+
+# Archivos relacionados con builds y distribuciones
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Otros archivos de configuración opcionales
+.pip-selfcheck.json
