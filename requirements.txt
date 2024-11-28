@@ -1,3 +1,4 @@
 PyQt6==6.7.1
 aiohttp==3.11.7
 pygame==2.6.1
+requests==2.32.3
