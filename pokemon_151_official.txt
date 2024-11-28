@@ -1,0 +1,1661 @@
+Nombre: bulbasaur
+Número: 1
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: ivysaur
+Número: 2
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 6.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: venusaur
+Número: 3
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.8 m
+Peso: 6.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: charmander
+Número: 4
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 7.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: charmeleon
+Número: 5
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 7.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: charizard
+Número: 6
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.1 m
+Peso: 8.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: squirtle
+Número: 7
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 8.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: wartortle
+Número: 8
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 9.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: blastoise
+Número: 9
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.4 m
+Peso: 9.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: caterpie
+Número: 10
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 10.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: metapod
+Número: 11
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 10.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: butterfree
+Número: 12
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.7 m
+Peso: 11.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: weedle
+Número: 13
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 11.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: kakuna
+Número: 14
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 12.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: beedrill
+Número: 15
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.0 m
+Peso: 12.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: pidgey
+Número: 16
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 13.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: pidgeotto
+Número: 17
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 13.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: pidgeot
+Número: 18
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.3 m
+Peso: 14.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: rattata
+Número: 19
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 14.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: raticate
+Número: 20
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 15.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: spearow
+Número: 21
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.6 m
+Peso: 15.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: fearow
+Número: 22
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 16.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: ekans
+Número: 23
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 16.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: arbok
+Número: 24
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.9 m
+Peso: 17.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: pikachu
+Número: 25
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 17.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: raichu
+Número: 26
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 18.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: sandshrew
+Número: 27
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.2 m
+Peso: 18.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: sandslash
+Número: 28
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 19.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: nidoran-f
+Número: 29
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 19.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: nidorina
+Número: 30
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.5 m
+Peso: 20.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: nidoqueen
+Número: 31
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 20.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: nidoran-m
+Número: 32
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 21.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: nidorino
+Número: 33
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.8 m
+Peso: 21.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: nidoking
+Número: 34
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 22.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: clefairy
+Número: 35
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 22.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: clefable
+Número: 36
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 2.1 m
+Peso: 23.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: vulpix
+Número: 37
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 23.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: ninetales
+Número: 38
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 24.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: jigglypuff
+Número: 39
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.4 m
+Peso: 24.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: wigglytuff
+Número: 40
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 25.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: zubat
+Número: 41
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 25.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: golbat
+Número: 42
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.7 m
+Peso: 26.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: oddish
+Número: 43
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 26.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: gloom
+Número: 44
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 27.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: vileplume
+Número: 45
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.0 m
+Peso: 27.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: paras
+Número: 46
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 28.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: parasect
+Número: 47
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 28.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: venonat
+Número: 48
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.3 m
+Peso: 29.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: venomoth
+Número: 49
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 29.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: diglett
+Número: 50
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 5.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: dugtrio
+Número: 51
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: meowth
+Número: 52
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 6.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: persian
+Número: 53
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 6.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: psyduck
+Número: 54
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.9 m
+Peso: 7.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: golduck
+Número: 55
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 7.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: mankey
+Número: 56
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 8.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: primeape
+Número: 57
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.2 m
+Peso: 8.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: growlithe
+Número: 58
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 9.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: arcanine
+Número: 59
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 9.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: poliwag
+Número: 60
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.5 m
+Peso: 10.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: poliwhirl
+Número: 61
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 10.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: poliwrath
+Número: 62
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 11.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: abra
+Número: 63
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.8 m
+Peso: 11.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: kadabra
+Número: 64
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 12.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: alakazam
+Número: 65
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 12.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: machop
+Número: 66
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.1 m
+Peso: 13.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: machoke
+Número: 67
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 13.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: machamp
+Número: 68
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 14.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: bellsprout
+Número: 69
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.4 m
+Peso: 14.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: weepinbell
+Número: 70
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 15.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: victreebel
+Número: 71
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 15.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: tentacool
+Número: 72
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.7 m
+Peso: 16.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: tentacruel
+Número: 73
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 16.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: geodude
+Número: 74
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 17.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: graveler
+Número: 75
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.0 m
+Peso: 17.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: golem
+Número: 76
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 18.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: ponyta
+Número: 77
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 18.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: rapidash
+Número: 78
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.3 m
+Peso: 19.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: slowpoke
+Número: 79
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 19.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: slowbro
+Número: 80
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 20.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: magnemite
+Número: 81
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.6 m
+Peso: 20.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: magneton
+Número: 82
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 21.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: farfetchd
+Número: 83
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 21.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: doduo
+Número: 84
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.9 m
+Peso: 22.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: dodrio
+Número: 85
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 22.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: seel
+Número: 86
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 23.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: dewgong
+Número: 87
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.2 m
+Peso: 23.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: grimer
+Número: 88
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 24.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: muk
+Número: 89
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 24.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: shellder
+Número: 90
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.5 m
+Peso: 25.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: cloyster
+Número: 91
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 25.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: gastly
+Número: 92
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 26.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: haunter
+Número: 93
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.8 m
+Peso: 26.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: gengar
+Número: 94
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 27.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: onix
+Número: 95
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 27.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: drowzee
+Número: 96
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 2.1 m
+Peso: 28.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: hypno
+Número: 97
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 28.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: krabby
+Número: 98
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 29.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: kingler
+Número: 99
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.4 m
+Peso: 29.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: voltorb
+Número: 100
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 5.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: electrode
+Número: 101
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: exeggcute
+Número: 102
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.7 m
+Peso: 6.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: exeggutor
+Número: 103
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 6.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: cubone
+Número: 104
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 7.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: marowak
+Número: 105
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.0 m
+Peso: 7.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: hitmonlee
+Número: 106
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 8.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: hitmonchan
+Número: 107
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 8.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: lickitung
+Número: 108
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.3 m
+Peso: 9.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: koffing
+Número: 109
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 9.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: weezing
+Número: 110
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 10.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: rhyhorn
+Número: 111
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.6 m
+Peso: 10.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: rhydon
+Número: 112
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 11.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: chansey
+Número: 113
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 11.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: tangela
+Número: 114
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.9 m
+Peso: 12.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: kangaskhan
+Número: 115
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 12.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: horsea
+Número: 116
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 13.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: seadra
+Número: 117
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.2 m
+Peso: 13.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: goldeen
+Número: 118
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 14.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: seaking
+Número: 119
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 14.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: staryu
+Número: 120
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.5 m
+Peso: 15.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: starmie
+Número: 121
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 15.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: mr-mime
+Número: 122
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 16.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: scyther
+Número: 123
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.8 m
+Peso: 16.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: jynx
+Número: 124
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 17.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: electabuzz
+Número: 125
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 17.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: magmar
+Número: 126
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.1 m
+Peso: 18.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: pinsir
+Número: 127
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 18.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: tauros
+Número: 128
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 19.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: magikarp
+Número: 129
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.4 m
+Peso: 19.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: gyarados
+Número: 130
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 20.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: lapras
+Número: 131
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 20.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: ditto
+Número: 132
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.7 m
+Peso: 21.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: eevee
+Número: 133
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 21.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: vaporeon
+Número: 134
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 22.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: jolteon
+Número: 135
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.0 m
+Peso: 22.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: flareon
+Número: 136
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 23.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: porygon
+Número: 137
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 23.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: omanyte
+Número: 138
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.3 m
+Peso: 24.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: omastar
+Número: 139
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 24.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: kabuto
+Número: 140
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 25.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: kabutops
+Número: 141
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.6 m
+Peso: 25.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: aerodactyl
+Número: 142
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 26.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: snorlax
+Número: 143
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 26.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: articuno
+Número: 144
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.9 m
+Peso: 27.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: zapdos
+Número: 145
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 27.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: moltres
+Número: 146
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 28.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: dratini
+Número: 147
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.2 m
+Peso: 28.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: dragonair
+Número: 148
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 29.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: dragonite
+Número: 149
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 29.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: mewtwo
+Número: 150
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.5 m
+Peso: 5.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: mew
+Número: 151
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------

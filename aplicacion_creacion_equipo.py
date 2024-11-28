@@ -63,7 +63,7 @@ class AplicacionCreacionEquipo(QWidget):
         async with aiohttp.ClientSession() as session:
             for i in range(self.list_widget.count()):
                 pokemon: Pokemon = self.pokedex.pokemones[i]
-                image_url = pokemon.info.sprite_url
+                image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/{pokemon.numero}.png"
                 if image_url:
                     image_data = await self.fetch_image(session, image_url)
                     if image_data:

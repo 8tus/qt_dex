@@ -49,15 +49,16 @@ class MainAPP(QMainWindow):
         
         # Crear la pantalla de carga
         self.pantalla_carga = PantallaCarga()
+        self.setCentralWidget(self.stacked_widget)
         self.inicio_carga_datos_async()
 
     def inicio_carga_datos_async(self):
         # Mostrar la pantalla de carga
-        self.pantalla_carga.show()
+        # self.pantalla_carga.show()
         self.loader.start()
 
         # Mostrar la ventana principal
-        self.setCentralWidget(self.pantalla_carga)  # Se pone la pantalla de carga a
+        # self.setCentralWidget(self.pantalla_carga)  # Se pone la pantalla de carga a
 
     def on_pokedex_loaded(self, pokedex):
         # Asignar la Pokédex al controlador
@@ -67,6 +68,6 @@ class MainAPP(QMainWindow):
         self.creacion_equipo_app.cargar_lista_pokedex(pokedex)
 
         print("Pokédex cargada, cerrando pantalla de carga.")
-        self.pantalla_carga.close()
-        self.setCentralWidget(self.stacked_widget)
+        # self.pantalla_carga.close()
+        # self.setCentralWidget(self.stacked_widget)
         self.pokedex_app.cargar_lista_pokedex(pokedex)

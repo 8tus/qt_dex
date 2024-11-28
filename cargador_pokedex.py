@@ -24,7 +24,7 @@ class CargadorPokedex(QThread):
 
     async def cargar_pokedex(self):
         try:    
-            pokemon_list = await CollectPokemonData.leer_pokemon_desde_archivo('pokemon_151_simulated.txt')
+            pokemon_list = await CollectPokemonData.leer_pokemon_desde_archivo('pokemon_151_official.txt')
             pokedex = Pokedex()
             for pokemon_data in pokemon_list:
                 estaditicas_simuladas = self.generate_base_stats()
