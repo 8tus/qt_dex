@@ -1,5 +1,10 @@
 from PyQt6.QtWidgets import QMainWindow, QStackedWidget
 from app_controller import AppController
+from cargador_pokedex import CargadorPokedex
+from file_reader_thread import FileReaderThread
+from menu import MenuPrincipal
+from pantalla_carga import PantallaCarga
+from aplicacion_pokedex import AplicacionPokedex
 from aplicacion_creacion_equipo import AplicacionCreacionEquipo
 from menu import MenuPrincipal
 from aplicacion_pokedex import AplicacionPokedex
@@ -38,8 +43,8 @@ class MainAPP(QMainWindow):
         self.stacked_widget.addWidget(AplicacionVerEquipos(self.stacked_widget))
         self.stacked_widget.addWidget(PantallaCarga())
 
-        # Crear el cargador de la Pokédex
-        self.loader = CargadorPokedex()
+        # Crear el hilo de carga de datos
+        self.loader = FileReaderThread()
         self.loader.pokedex_cargada.connect(self.on_pokedex_loaded)
         
         # Crear la pantalla de carga
