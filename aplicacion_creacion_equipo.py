@@ -5,9 +5,7 @@ import asyncio
 from PyQt6.QtWidgets import QListWidgetItem
 import os
 from aplicacion_ver_equipos import AplicacionVerEquipos
-from pokemon import Pokemon
-from pokedex import Pokedex
-from equipo import Equipo  # Asegúrate de importar correctamente la clase Equipo
+from clases import Pokemon, Pokedex, Equipo
 
 class AplicacionCreacionEquipo(QWidget):
     def __init__(self, stacked_widget, app_controller):

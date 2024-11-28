@@ -1,5 +1,5 @@
-from estadisticas import Estadisticas
-from pokemon import Pokemon
+from .estadisticas import Estadisticas
+from .pokemon import Pokemon
 
 class PokemonEvolucion(Pokemon):
     def __init__(self, nombre: str, numero: int, tipos: list,

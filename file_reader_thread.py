@@ -1,17 +1,10 @@
 from asyncio import sleep
 from PyQt6.QtWidgets import QMessageBox
 from PyQt6.QtCore import QThread, pyqtSignal
-
 from collect_pokemon_data import CollectPokemonData
-from estadisticas import Estadisticas
-from movimiento_especial import MovimientoEspecial
-from movimiento_estado import MovimientoEstado
-from movimiento_fisico import MovimientoFisico
-from pokedex import Pokedex
-from pokemon_basico import PokemonBasico
-from pokemon_evolucion import PokemonEvolucion
-from tipo import Tipo
+from clases import Estadisticas, MovimientoEspecial, MovimientoEstado, MovimientoFisico, Pokedex, PokemonBasico, PokemonEvolucion, Tipo
 import random
+import time
 
 class FileReaderThread(QThread):
     # Señales para comunicar el progreso o el resultado
@@ -19,11 +12,13 @@ class FileReaderThread(QThread):
     pokedex_cargada = pyqtSignal(Pokedex)
 
     def run(self):
+        time.sleep(8) #del 8tus
         try:    
-            sleep(2000)
             pokemon_list = CollectPokemonData.leer_pokemon_desde_archivo('pokemon_151_official.txt')
+            print('archivo leido')
             pokedex = Pokedex()
             for pokemon_data in pokemon_list:
+                print('crear estadisticas simuladas')
                 estaditicas_simuladas = self.generate_base_stats()
                 estadisticas = Estadisticas(
                     estaditicas_simuladas['hp'],
@@ -33,6 +28,7 @@ class FileReaderThread(QThread):
                     estaditicas_simuladas['defensa_especial'],
                     estaditicas_simuladas['velocidad'],
                 )
+                print('Identificar Tipos')
                 tipos = [Tipo(tipo) for tipo in pokemon_data['tipos']]
                 movimientos_estado = [MovimientoEstado(mov) for mov in pokemon_data['movimientos']['estado']]
                 movimientos_fisicos = [MovimientoFisico(mov) for mov in pokemon_data['movimientos']['fisico']]

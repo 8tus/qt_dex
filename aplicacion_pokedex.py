@@ -6,8 +6,7 @@ import requests
 import aiohttp
 
 from app_controller import AppController
-from pokedex import Pokedex
-from pokemon import Pokemon
+from clases import Pokedex, Pokemon
 
 class AplicacionPokedex(QWidget):
     def __init__(self, app_controller: AppController, stacked_widget):

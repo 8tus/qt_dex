@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from estadisticas import Estadisticas
+from .estadisticas import Estadisticas
 
 class Pokemon(ABC):
     def __init__(self, nombre: str, numero: int, tipos: list,

@@ -1,4 +1,4 @@
-from movimiento import Movimiento
+from .movimiento import Movimiento
 
 class MovimientoEstado(Movimiento):
     def __init__(self, nombre: str):

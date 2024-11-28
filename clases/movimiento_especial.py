@@ -1,4 +1,4 @@
-from movimiento_ataque import MovimientoAtaque
+from .movimiento_ataque import MovimientoAtaque
 
 
 class MovimientoEspecial(MovimientoAtaque):

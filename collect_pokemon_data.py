@@ -3,8 +3,10 @@ class CollectPokemonData:
     def leer_pokemon_desde_archivo(ruta_archivo):
         pokemon_list = []
         with open(ruta_archivo, "r") as archivo:
+            print('Archivo abierto')
             pokemon_actual = {}
             for linea in archivo:
+                print('Leyendo ...')
                 linea = linea.strip()
                 if linea.startswith("Nombre:"):
                     if pokemon_actual:  # Si ya hay un Pokémon, agregarlo a la lista
@@ -33,6 +35,7 @@ class CollectPokemonData:
                         pokemon_actual = {}
             if pokemon_actual:  # Agregar el último Pokémon si existe
                 pokemon_list.append(pokemon_actual)
+        print('Retornar info leida desde archivo')
         return pokemon_list
 
 

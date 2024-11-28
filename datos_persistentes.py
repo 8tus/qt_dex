@@ -1,4 +1,4 @@
-from pokedex import Pokedex
+from clases import Pokedex
 
 class DatosPersistentes:
     def __init__(self):
