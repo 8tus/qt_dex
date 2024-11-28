@@ -94,13 +94,17 @@ class AplicacionCreacionEquipo(QWidget):
             found_pokemon = list(filter(lambda p: p.nombre.lower() == pokemon_name, self.pokedex.pokemones))
             if found_pokemon:
                 selected_pokemon = found_pokemon[0]
+                # Verificar si pokemon ya esta en el equipo
+                if selected_pokemon in self.pokemon_equipo:
+                    QMessageBox.warning(self, "Error", "Este pokemon ya fue agregado al equipo")
+                else:
                 # Agregarlo al equipo
-                self.pokemon_equipo.agregar_pokemon(selected_pokemon)
-                print(f"Pokémon {selected_pokemon.nombre} agregado al equipo.")
-                self.selected_pokemon_label.setText(f"{selected_pokemon.nombre} ha sido agregado al equipo.")
-                if len(self.pokemon_equipo.pokemon_list) == 6:
-                    self.selected_pokemon_label.setText("El equipo está completo.")
-                    self.add_button.setEnabled(False)  # Deshabilitar el botón cuando el equipo esté completo
+                    self.pokemon_equipo.agregar_pokemon(selected_pokemon)
+                    print(f"Pokémon {selected_pokemon.nombre} agregado al equipo.")
+                    self.selected_pokemon_label.setText(f"{selected_pokemon.nombre} ha sido agregado al equipo.")
+                    if len(self.pokemon_equipo.pokemon_list) == 6:
+                        self.selected_pokemon_label.setText("El equipo está completo.")
+                        self.add_button.setEnabled(False)  # Deshabilitar el botón cuando el equipo esté completo
             else:
                 self.selected_pokemon_label.setText("Pokémon no encontrado.")
         else:

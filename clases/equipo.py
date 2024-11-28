@@ -34,3 +34,6 @@ class Equipo:
                 self.pokemon_list = [line.strip() for line in f.readlines()]
         except FileNotFoundError:
             print(f"No se encontró un archivo para el equipo {self.nombre}.")
+
+    def __contains__(self, pokemon):
+        return pokemon in self.pokemon_list
