@@ -10,9 +10,10 @@ from pokedex import Pokedex
 from pokemon import Pokemon
 
 class AplicacionPokedex(QWidget):
-    def __init__(self, app_controller: AppController):
+    def __init__(self, app_controller: AppController, stacked_widget):
         super().__init__()
         self.app_controller = app_controller
+        self.stacked_widget = stacked_widget  # La instancia del stacked_widget para cambiar las vistas
         self.initUI()
 
     def initUI(self):
@@ -36,7 +37,7 @@ class AplicacionPokedex(QWidget):
         self.details_text = QTextEdit(self)
         self.details_text.setReadOnly(True)
 
-       # Crear las barras de progreso para las estadísticas con etiquetas
+        # Crear las barras de progreso para las estadísticas con etiquetas
         self.ps_label = QLabel('PS:', self)
         self.ps_bar = QProgressBar(self)
         self.ps_bar.setMaximum(255)  # Valor máximo ajustado
@@ -66,7 +67,6 @@ class AplicacionPokedex(QWidget):
         self.speed_bar = QProgressBar(self)
         self.speed_bar.setMaximum(250)  # Valor máximo ajustado
         self.speed_bar.setTextVisible(False)  # Ocultar el texto de porcentaje
-
 
         # Agregar las etiquetas y las barras de progreso al layout
         self.details_layout.addWidget(self.details_image)
@@ -103,7 +103,7 @@ class AplicacionPokedex(QWidget):
             if response.status == 200:
                 return await response.read()
             return None
-    
+
     def cargar_lista_pokedex(self, pokedex: Pokedex):
         """Carga la lista de Pokémon en el QListWidget y establece los datos."""
         self.pokedex = pokedex
@@ -117,7 +117,7 @@ class AplicacionPokedex(QWidget):
     async def cargar_iconos_pokemon(self):
         async with aiohttp.ClientSession() as session:
             for i in range(self.list_widget.count()):
-                pokemon:Pokemon = self.pokedex.pokemones[i]
+                pokemon: Pokemon = self.pokedex.pokemones[i]
                 image_url = pokemon.info.sprite_url
                 if image_url:
                     image_data = await self.fetch_image(session, image_url)
@@ -126,13 +126,6 @@ class AplicacionPokedex(QWidget):
                         pixmap.loadFromData(image_data)
                         icon = QIcon(pixmap)
                         self.list_widget.item(i).setIcon(icon)
-
-    async def fetch_image(self, session, url):
-        async with session.get(url) as response:
-            if response.status == 200:
-                return await response.read()
-            return None
-
 
     def buscar_pokemon(self):
         pokemon_to_search = self.search_input.text().strip().lower()
@@ -147,11 +140,11 @@ class AplicacionPokedex(QWidget):
             pokemon_name = item
         else:
             pokemon_name = item.text().lower()
-            
+
         found_pokemon = list(filter(lambda p: p.nombre.lower() == pokemon_name.lower(), self.pokedex.pokemones))
 
         if found_pokemon:
-            pokemon:Pokemon = found_pokemon[0]
+            pokemon: Pokemon = found_pokemon[0]
             tipos_str = ""
             if len(pokemon.info.tipos) > 1:
                 tipos_str = f"Tipos: {pokemon.info.tipos[0].nombre} - {pokemon.info.tipos[1].nombre}"
@@ -160,12 +153,12 @@ class AplicacionPokedex(QWidget):
             habilidades_str = ''
             for i in range(len(pokemon.info.habilidades)):
                 habilidades_str = pokemon.info.habilidades[i].nombre
-                if i != 0 and i != len(pokemon.info.habilidades)-1:
+                if i != 0 and i != len(pokemon.info.habilidades) - 1:
                     habilidades_str += ' - '
             movimientos_str = ''
             for i in range(len(pokemon.info.movimientos)):
                 movimientos_str = pokemon.info.movimientos[i].nombre
-                if i != 0 and i != len(pokemon.info.habilidades)-1:
+                if i != 0 and i != len(pokemon.info.habilidades) - 1:
                     movimientos_str += ' - '
 
             details = (
@@ -206,4 +199,4 @@ class AplicacionPokedex(QWidget):
             QMessageBox.warning(self, "Error", "Pokémon no encontrado.")
 
     def mostrar_menu_principal(self):
-        self.stacked_widget.setCurrentIndex(0)
+        self.stacked_widget.setCurrentIndex(0)  # Cambiar al primer widget en el stacked_widget
