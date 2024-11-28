@@ -2,7 +2,7 @@ class CollectPokemonData:
     @staticmethod
     def leer_pokemon_desde_archivo(ruta_archivo):
         pokemon_list = []
-        with open(ruta_archivo, "r") as archivo:
+        with open(ruta_archivo, "r", encoding='utf-8') as archivo:
             print('Archivo abierto')
             pokemon_actual = {}
             for linea in archivo:
