@@ -31,32 +31,35 @@ class AplicacionVerEquipos(QWidget):
         self.cargar_equipos_guardados()
 
     def cargar_equipos_guardados(self):
-        self.list_widget.clear()
-        for filename in os.listdir():
+        """Cargar los equipos guardados en el QListWidget."""
+        self.list_widget.clear()  # Limpiar la lista antes de cargar nuevos equipos
+        for filename in os.listdir("equipos"):
             if filename.startswith("equipo_") and filename.endswith(".txt"):
-                self.list_widget.addItem(filename)
+                self.list_widget.addItem(filename)  # Agregar cada equipo a la lista
 
     def mostrar_detalles_equipo(self, item):
-        self.equipo_nombre = item.text()  # Guardar el nombre del equipo seleccionado
-        with open(self.equipo_nombre, "r") as f:
-            equipo_pokemon = f.readlines()
-        detalles = "\n".join([pokemon.strip() for pokemon in equipo_pokemon])
-        QMessageBox.information(self, "Detalles del Equipo", f"Pokémon en el equipo {self.equipo_nombre}:\n{detalles}")
+        equipo_nombre = item.text()
+        try:
+            with open(f"equipos/{equipo_nombre}", "r") as file:
+                pokemon_names = file.readlines()
+                pokemon_list = [name.strip() for name in pokemon_names]
+                # Mostrar detalles de los Pokémon en el equipo
+                detalle = "\n".join(pokemon_list)
+                QMessageBox.information(self, f"Detalles de {equipo_nombre}", detalle)
+        except FileNotFoundError:
+            QMessageBox.warning(self, "Error", f"No se encontró el equipo '{equipo_nombre}'.")
 
     def eliminar_equipo(self):
-        if hasattr(self, 'equipo_nombre'):
-            confirmacion = QMessageBox.question(self, "Confirmar Eliminación", 
-                                                f"¿Estás seguro de que deseas eliminar el equipo {self.equipo_nombre}?", 
-                                                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
-            if confirmacion == QMessageBox.StandardButton.Yes:
-                try:
-                    os.remove(self.equipo_nombre)  # Eliminar el archivo del equipo
-                    QMessageBox.information(self, "Éxito", f"El equipo {self.equipo_nombre} ha sido eliminado.")
-                    self.cargar_equipos_guardados()  # Actualizar la lista de equipos
-                except Exception as e:
-                    QMessageBox.warning(self, "Error", f"No se pudo eliminar el equipo. Error: {str(e)}")
+        equipo_nombre = self.list_widget.currentItem().text()
+        if equipo_nombre:
+            try:
+                os.remove(f"equipos/{equipo_nombre}")
+                self.cargar_equipos_guardados()  # Recargar la lista de equipos
+                QMessageBox.information(self, "Equipo Eliminado", f"El equipo '{equipo_nombre}' ha sido eliminado.")
+            except Exception as e:
+                QMessageBox.warning(self, "Error", f"No se pudo eliminar el equipo '{equipo_nombre}'. Error: {str(e)}")
         else:
-            QMessageBox.warning(self, "Error", "No se ha seleccionado un equipo para eliminar.")
-
+            QMessageBox.warning(self, "Error", "No has seleccionado un equipo para eliminar.")
+            
     def mostrar_menu_principal(self):
-        self.stacked_widget.setCurrentIndex(0)
+        self.stacked_widget.setCurrentWidget(self.stacked_widget.widget(0))  # Cambiar a la vista principal

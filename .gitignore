@@ -43,3 +43,6 @@ dist/
 
 # Otros archivos de configuración opcionales
 .pip-selfcheck.json
+
+# No considerar equipos creados en local
+equipos/

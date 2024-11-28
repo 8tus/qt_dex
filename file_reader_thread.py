@@ -21,7 +21,7 @@ class FileReaderThread(QThread):
     def run(self):
         try:    
             sleep(2000)
-            pokemon_list = CollectPokemonData.leer_pokemon_desde_archivo('pokemon_151_simulated.txt')
+            pokemon_list = CollectPokemonData.leer_pokemon_desde_archivo('pokemon_151_official.txt')
             pokedex = Pokedex()
             for pokemon_data in pokemon_list:
                 estaditicas_simuladas = self.generate_base_stats()
