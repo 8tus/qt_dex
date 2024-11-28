@@ -1,5 +1,4 @@
 import sys
-import os
 import pygame
 from PyQt6.QtWidgets import QApplication
 from main_app import MainAPP

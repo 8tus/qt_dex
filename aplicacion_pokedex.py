@@ -118,7 +118,7 @@ class AplicacionPokedex(QWidget):
         async with aiohttp.ClientSession() as session:
             for i in range(self.list_widget.count()):
                 pokemon:Pokemon = self.pokedex.pokemones[i]
-                image_url = pokemon.info.sprite_url
+                image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/{pokemon.numero}.png"
                 if image_url:
                     image_data = await self.fetch_image(session, image_url)
                     if image_data:
@@ -153,50 +153,44 @@ class AplicacionPokedex(QWidget):
         if found_pokemon:
             pokemon:Pokemon = found_pokemon[0]
             tipos_str = ""
-            if len(pokemon.info.tipos) > 1:
-                tipos_str = f"Tipos: {pokemon.info.tipos[0].nombre} - {pokemon.info.tipos[1].nombre}"
+            if len(pokemon.tipos) > 1:
+                tipos_str = f"Tipos: {pokemon.tipos[0].nombre} - {pokemon.tipos[1].nombre}"
             else:
-                tipos_str = f"Tipo: {pokemon.info.tipos[0].nombre}"
-            habilidades_str = ''
-            for i in range(len(pokemon.info.habilidades)):
-                habilidades_str = pokemon.info.habilidades[i].nombre
-                if i != 0 and i != len(pokemon.info.habilidades)-1:
-                    habilidades_str += ' - '
-            movimientos_str = ''
-            for i in range(len(pokemon.info.movimientos)):
-                movimientos_str = pokemon.info.movimientos[i].nombre
-                if i != 0 and i != len(pokemon.info.habilidades)-1:
-                    movimientos_str += ' - '
+                tipos_str = f"Tipo: {pokemon.tipos[0].nombre}"
+            # movimientos_str = ''
+            # for i in range(len(pokemon.info.movimientos)):
+            #     movimientos_str = pokemon.info.movimientos[i].nombre
+            #     if i != 0 and i != len(pokemon.info.habilidades)-1:
+            #         movimientos_str += ' - '
 
             details = (
                 f"Nombre: {pokemon.nombre.capitalize()}\n"
-                f"Número: {pokemon.info.numero}\n"
-                f"Altura: {pokemon.info.altura / 10} m\n"
-                f"Peso: {pokemon.info.peso / 10} kg\n"
+                f"Número: {pokemon.numero}\n"
+                f"Altura: {pokemon.altura} m\n"
+                f"Peso: {pokemon.peso} kg\n"
                 f"{tipos_str}\n"
-                f"{habilidades_str}\n"
-                f"{movimientos_str}\n"
+                # f"{movimientos_str}\n"
             )
             self.details_text.setText(details)
-
+            print('pokemon ps', pokemon.estadisticas.ps)
             # Establecer valores en las barras de progreso (mostrar valores enteros)
-            self.ps_bar.setValue(pokemon.info.estadisticas.ps)  # PS
-            self.attack_bar.setValue(pokemon.info.estadisticas.ataque_especial)  # Ataque
-            self.defense_bar.setValue(pokemon.info.estadisticas.defensa)  # Defensa
-            self.special_attack_bar.setValue(pokemon.info.estadisticas.ataque_especial)  # Ataque Especial
-            self.special_defense_bar.setValue(pokemon.info.estadisticas.defensa_especial)  # Defensa Especial
-            self.speed_bar.setValue(pokemon.info.estadisticas.velocidad)  # Velocidad
+            self.ps_bar.setValue(pokemon.estadisticas.ps)  # PS
+            self.attack_bar.setValue(pokemon.estadisticas.ataque_especial)  # Ataque
+            self.defense_bar.setValue(pokemon.estadisticas.defensa)  # Defensa
+            self.special_attack_bar.setValue(pokemon.estadisticas.ataque_especial)  # Ataque Especial
+            self.special_defense_bar.setValue(pokemon.estadisticas.defensa_especial)  # Defensa Especial
+            self.speed_bar.setValue(pokemon.estadisticas.velocidad)  # Velocidad
 
             # Mostrar los valores enteros junto a las barras
-            self.ps_label.setText(f"PS: {pokemon.info.estadisticas.ps}")
-            self.attack_label.setText(f"Ataque: {pokemon.info.estadisticas.ataque}")
-            self.defense_label.setText(f"Defensa: {pokemon.info.estadisticas.defensa}")
-            self.special_attack_label.setText(f"Ataque Especial: {pokemon.info.estadisticas.ataque_especial}")
-            self.special_defense_label.setText(f"Defensa Especial: {pokemon.info.estadisticas.defensa_especial}")
-            self.speed_label.setText(f"Velocidad: {pokemon.info.estadisticas.velocidad}")
+            self.ps_label.setText(f"PS: {pokemon.estadisticas.ps}")
+            self.attack_label.setText(f"Ataque: {pokemon.estadisticas.ataque}")
+            self.defense_label.setText(f"Defensa: {pokemon.estadisticas.defensa}")
+            self.special_attack_label.setText(f"Ataque Especial: {pokemon.estadisticas.ataque_especial}")
+            self.special_defense_label.setText(f"Defensa Especial: {pokemon.estadisticas.defensa_especial}")
+            self.speed_label.setText(f"Velocidad: {pokemon.estadisticas.velocidad}")
 
             # Cargar la imagen
-            image_url = pokemon.info.sprite_url
+            image_url = f"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/{pokemon.numero}.png"
             if image_url:
                 pixmap = QPixmap()
                 pixmap.loadFromData(requests.get(image_url).content)

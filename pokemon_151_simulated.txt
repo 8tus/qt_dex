@@ -1,0 +1,1661 @@
+Nombre: Pokemon1
+Número: 1
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon2
+Número: 2
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 6.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon3
+Número: 3
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.8 m
+Peso: 6.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon4
+Número: 4
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 7.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon5
+Número: 5
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 7.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon6
+Número: 6
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.1 m
+Peso: 8.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon7
+Número: 7
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 8.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon8
+Número: 8
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 9.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon9
+Número: 9
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.4 m
+Peso: 9.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon10
+Número: 10
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 10.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon11
+Número: 11
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 10.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon12
+Número: 12
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.7 m
+Peso: 11.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon13
+Número: 13
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 11.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon14
+Número: 14
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 12.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon15
+Número: 15
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.0 m
+Peso: 12.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon16
+Número: 16
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 13.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon17
+Número: 17
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 13.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon18
+Número: 18
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.3 m
+Peso: 14.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon19
+Número: 19
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 14.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon20
+Número: 20
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 15.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon21
+Número: 21
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.6 m
+Peso: 15.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon22
+Número: 22
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 16.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon23
+Número: 23
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 16.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon24
+Número: 24
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.9 m
+Peso: 17.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon25
+Número: 25
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 17.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon26
+Número: 26
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 18.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon27
+Número: 27
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.2 m
+Peso: 18.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon28
+Número: 28
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 19.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon29
+Número: 29
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 19.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon30
+Número: 30
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.5 m
+Peso: 20.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon31
+Número: 31
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 20.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon32
+Número: 32
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 21.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon33
+Número: 33
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.8 m
+Peso: 21.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon34
+Número: 34
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 22.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon35
+Número: 35
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 22.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon36
+Número: 36
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 2.1 m
+Peso: 23.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon37
+Número: 37
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 23.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon38
+Número: 38
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 24.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon39
+Número: 39
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.4 m
+Peso: 24.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon40
+Número: 40
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 25.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon41
+Número: 41
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 25.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon42
+Número: 42
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.7 m
+Peso: 26.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon43
+Número: 43
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 26.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon44
+Número: 44
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 27.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon45
+Número: 45
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.0 m
+Peso: 27.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon46
+Número: 46
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 28.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon47
+Número: 47
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 28.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon48
+Número: 48
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.3 m
+Peso: 29.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon49
+Número: 49
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 29.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon50
+Número: 50
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 5.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon51
+Número: 51
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon52
+Número: 52
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 6.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon53
+Número: 53
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 6.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon54
+Número: 54
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.9 m
+Peso: 7.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon55
+Número: 55
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 7.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon56
+Número: 56
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 8.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon57
+Número: 57
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.2 m
+Peso: 8.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon58
+Número: 58
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 9.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon59
+Número: 59
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 9.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon60
+Número: 60
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.5 m
+Peso: 10.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon61
+Número: 61
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 10.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon62
+Número: 62
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 11.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon63
+Número: 63
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.8 m
+Peso: 11.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon64
+Número: 64
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 12.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon65
+Número: 65
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 12.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon66
+Número: 66
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.1 m
+Peso: 13.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon67
+Número: 67
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 13.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon68
+Número: 68
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 14.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon69
+Número: 69
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.4 m
+Peso: 14.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon70
+Número: 70
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 15.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon71
+Número: 71
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 15.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon72
+Número: 72
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.7 m
+Peso: 16.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon73
+Número: 73
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 16.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon74
+Número: 74
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 17.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon75
+Número: 75
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.0 m
+Peso: 17.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon76
+Número: 76
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 18.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon77
+Número: 77
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 18.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon78
+Número: 78
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.3 m
+Peso: 19.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon79
+Número: 79
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 19.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon80
+Número: 80
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 20.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon81
+Número: 81
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.6 m
+Peso: 20.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon82
+Número: 82
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 21.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon83
+Número: 83
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 21.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon84
+Número: 84
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.9 m
+Peso: 22.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon85
+Número: 85
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 22.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon86
+Número: 86
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 23.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon87
+Número: 87
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.2 m
+Peso: 23.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon88
+Número: 88
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 24.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon89
+Número: 89
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 24.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon90
+Número: 90
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.5 m
+Peso: 25.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon91
+Número: 91
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 25.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon92
+Número: 92
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 26.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon93
+Número: 93
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.8 m
+Peso: 26.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon94
+Número: 94
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 27.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon95
+Número: 95
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 27.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon96
+Número: 96
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 2.1 m
+Peso: 28.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon97
+Número: 97
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 28.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon98
+Número: 98
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 29.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon99
+Número: 99
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.4 m
+Peso: 29.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon100
+Número: 100
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 5.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon101
+Número: 101
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon102
+Número: 102
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.7 m
+Peso: 6.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon103
+Número: 103
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 6.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon104
+Número: 104
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 7.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon105
+Número: 105
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.0 m
+Peso: 7.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon106
+Número: 106
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 8.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon107
+Número: 107
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 8.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon108
+Número: 108
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.3 m
+Peso: 9.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon109
+Número: 109
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 9.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon110
+Número: 110
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 10.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon111
+Número: 111
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.6 m
+Peso: 10.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon112
+Número: 112
+Tipos: Tipo1
+Básico: No
+Altura: 1.7 m
+Peso: 11.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon113
+Número: 113
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 11.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon114
+Número: 114
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.9 m
+Peso: 12.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon115
+Número: 115
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.0 m
+Peso: 12.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon116
+Número: 116
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 13.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon117
+Número: 117
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.2 m
+Peso: 13.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon118
+Número: 118
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.3 m
+Peso: 14.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon119
+Número: 119
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 14.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon120
+Número: 120
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.5 m
+Peso: 15.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon121
+Número: 121
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.6 m
+Peso: 15.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon122
+Número: 122
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 16.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon123
+Número: 123
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.8 m
+Peso: 16.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon124
+Número: 124
+Tipos: Tipo1
+Básico: No
+Altura: 0.9 m
+Peso: 17.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon125
+Número: 125
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 17.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon126
+Número: 126
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.1 m
+Peso: 18.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon127
+Número: 127
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.2 m
+Peso: 18.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon128
+Número: 128
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 19.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon129
+Número: 129
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.4 m
+Peso: 19.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon130
+Número: 130
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.5 m
+Peso: 20.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon131
+Número: 131
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 20.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon132
+Número: 132
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 1.7 m
+Peso: 21.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon133
+Número: 133
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.8 m
+Peso: 21.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon134
+Número: 134
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.9 m
+Peso: 22.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon135
+Número: 135
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.0 m
+Peso: 22.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon136
+Número: 136
+Tipos: Tipo1
+Básico: No
+Altura: 2.1 m
+Peso: 23.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon137
+Número: 137
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.2 m
+Peso: 23.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon138
+Número: 138
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 2.3 m
+Peso: 24.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon139
+Número: 139
+Tipos: Tipo1
+Básico: Sí
+Altura: 2.4 m
+Peso: 24.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon140
+Número: 140
+Tipos: Tipo1
+Básico: No
+Altura: 0.5 m
+Peso: 25.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon141
+Número: 141
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 0.6 m
+Peso: 25.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon142
+Número: 142
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.7 m
+Peso: 26.0 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico2, MovimientoFisico3
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon143
+Número: 143
+Tipos: Tipo1
+Básico: Sí
+Altura: 0.8 m
+Peso: 26.5 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico3, MovimientoFisico4
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------
+Nombre: Pokemon144
+Número: 144
+Tipos: Tipo1, Tipo2
+Básico: No
+Altura: 0.9 m
+Peso: 27.0 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico4, MovimientoFisico5
+  - Especial: MovimientoEspecial0, MovimientoEspecial1
+----------------------------------------
+Nombre: Pokemon145
+Número: 145
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.0 m
+Peso: 27.5 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico5, MovimientoFisico6
+  - Especial: MovimientoEspecial1, MovimientoEspecial2
+----------------------------------------
+Nombre: Pokemon146
+Número: 146
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.1 m
+Peso: 28.0 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico6, MovimientoFisico7
+  - Especial: MovimientoEspecial2, MovimientoEspecial3
+----------------------------------------
+Nombre: Pokemon147
+Número: 147
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.2 m
+Peso: 28.5 kg
+Movimientos:
+  - Estado: MovimientoEstado2, MovimientoEstado3
+  - Físico: MovimientoFisico7, MovimientoFisico8
+  - Especial: MovimientoEspecial3, MovimientoEspecial4
+----------------------------------------
+Nombre: Pokemon148
+Número: 148
+Tipos: Tipo1
+Básico: No
+Altura: 1.3 m
+Peso: 29.0 kg
+Movimientos:
+  - Estado: MovimientoEstado3, MovimientoEstado4
+  - Físico: MovimientoFisico8, MovimientoFisico9
+  - Especial: MovimientoEspecial4, MovimientoEspecial5
+----------------------------------------
+Nombre: Pokemon149
+Número: 149
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.4 m
+Peso: 29.5 kg
+Movimientos:
+  - Estado: MovimientoEstado4, MovimientoEstado0
+  - Físico: MovimientoFisico9, MovimientoFisico0
+  - Especial: MovimientoEspecial5, MovimientoEspecial6
+----------------------------------------
+Nombre: Pokemon150
+Número: 150
+Tipos: Tipo1, Tipo2
+Básico: Sí
+Altura: 1.5 m
+Peso: 5.0 kg
+Movimientos:
+  - Estado: MovimientoEstado0, MovimientoEstado1
+  - Físico: MovimientoFisico0, MovimientoFisico1
+  - Especial: MovimientoEspecial6, MovimientoEspecial7
+----------------------------------------
+Nombre: Pokemon151
+Número: 151
+Tipos: Tipo1
+Básico: Sí
+Altura: 1.6 m
+Peso: 5.5 kg
+Movimientos:
+  - Estado: MovimientoEstado1, MovimientoEstado2
+  - Físico: MovimientoFisico1, MovimientoFisico2
+  - Especial: MovimientoEspecial7, MovimientoEspecial0
+----------------------------------------

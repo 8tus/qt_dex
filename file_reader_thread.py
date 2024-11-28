@@ -1,30 +1,27 @@
+from asyncio import sleep
 from PyQt6.QtWidgets import QMessageBox
 from PyQt6.QtCore import QThread, pyqtSignal
-import asyncio
 
 from collect_pokemon_data import CollectPokemonData
 from estadisticas import Estadisticas
-from habilidad import Habilidad
 from movimiento_especial import MovimientoEspecial
 from movimiento_estado import MovimientoEstado
 from movimiento_fisico import MovimientoFisico
 from pokedex import Pokedex
-from pokemon import Pokemon
 from pokemon_basico import PokemonBasico
 from pokemon_evolucion import PokemonEvolucion
 from tipo import Tipo
 import random
 
-
-class CargadorPokedex(QThread):
+class FileReaderThread(QThread):
+    # Señales para comunicar el progreso o el resultado
+    progress = pyqtSignal(str)
     pokedex_cargada = pyqtSignal(Pokedex)
 
     def run(self):
-        asyncio.run(self.cargar_pokedex())
-
-    async def cargar_pokedex(self):
         try:    
-            pokemon_list = await CollectPokemonData.leer_pokemon_desde_archivo('pokemon_151_simulated.txt')
+            sleep(2000)
+            pokemon_list = CollectPokemonData.leer_pokemon_desde_archivo('pokemon_151_simulated.txt')
             pokedex = Pokedex()
             for pokemon_data in pokemon_list:
                 estaditicas_simuladas = self.generate_base_stats()
@@ -63,7 +60,7 @@ class CargadorPokedex(QThread):
             QMessageBox.warning(None, "Error", "No se pudo cargar la lista de Pokémon.")
     
     # Función para generar estadísticas base simuladas
-    def generate_base_stats():
+    def generate_base_stats(self):
         return {
             "hp": random.randint(40, 120),
             "ataque": random.randint(30, 130),
